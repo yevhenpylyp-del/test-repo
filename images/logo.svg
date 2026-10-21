@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="32" viewBox="0 0 148 32" role="img" aria-label="SportShop">
+  <rect width="32" height="32" rx="8" fill="#ffffff"/>
+  <path d="M18 5 9 18h6l-1 9 9-13h-6z" fill="#2563eb"/>
+  <text x="40" y="22.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">SportShop</text>
+</svg>

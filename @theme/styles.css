@@ -15,9 +15,13 @@
   --border-color-secondary: #f1f5f9;
 
   /* Navbar */
-  --navbar-bg-color: #ffffff;
-  --navbar-text-color: #0f172a;
-  --navbar-border-color: #e2e8f0;
+  --navbar-bg-color: #dc2626;
+  --navbar-text-color: #ffffff;
+  --navbar-border-color: #b91c1c;
+  --navbar-item-text-color-hover: #ffffff;
+  --navbar-item-text-color-active: #ffffff;
+  --navbar-item-bg-color-hover: #b91c1c;
+  --navbar-item-bg-color-active: #b91c1c;
 
   /* Footer */
   --footer-bg-color: #15803d;
@@ -40,7 +44,9 @@
 
   /* Search */
   --search-input-bg-color: #f1f5f9;
-  --search-trigger-color: #64748b;
+  --search-trigger-color: #ffffff;
+  --search-trigger-border-color: #fca5a5;
+  --search-trigger-border-color-hover: #ffffff;
 }
 
 :root.dark {
@@ -55,9 +61,13 @@
   --border-color-secondary: #334155;
 
   /* Navbar */
-  --navbar-bg-color: #0f172a;
-  --navbar-text-color: #f8fafc;
-  --navbar-border-color: #1e293b;
+  --navbar-bg-color: #991b1b;
+  --navbar-text-color: #ffffff;
+  --navbar-border-color: #7f1d1d;
+  --navbar-item-text-color-hover: #ffffff;
+  --navbar-item-text-color-active: #ffffff;
+  --navbar-item-bg-color-hover: #7f1d1d;
+  --navbar-item-bg-color-active: #7f1d1d;
 
   /* Footer */
   --footer-bg-color: #14532d;
@@ -80,7 +90,9 @@
 
   /* Search */
   --search-input-bg-color: #1e293b;
-  --search-trigger-color: #94a3b8;
+  --search-trigger-color: #ffffff;
+  --search-trigger-border-color: #dc2626;
+  --search-trigger-border-color-hover: #ffffff;
 }
 
 /* Navbar: menu goes first so the logo sits right before the search input */
