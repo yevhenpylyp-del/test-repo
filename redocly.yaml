@@ -32,6 +32,10 @@ apis:
   sportshop-api@v1:
     root: apis/openapi.yaml
 
+logo:
+  srcSet: "./images/logo-light.svg light, ./images/logo-dark.svg dark"
+  altText: SportShop
+
 # Navigation footer
 footer:
   copyrightText: "© 2026 SportShop Retail"
@@ -40,6 +44,8 @@ footer:
       items:
         - page: docs/getting-started/index.md
           label: Getting Started
+        - page: docs/guides/index.md
+          label: Guides
         - page: apis/openapi.yaml
           label: API Reference
     - group: Support

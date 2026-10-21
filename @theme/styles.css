@@ -20,11 +20,12 @@
   --navbar-border-color: #e2e8f0;
 
   /* Footer */
-  --footer-bg-color: #f8fafc;
-  --footer-text-color: #475569;
-  --footer-border-color: #e2e8f0;
-  --footer-title-text-color: #0f172a;
-  --footer-link-text-color: #475569;
+  --footer-bg-color: #15803d;
+  --footer-text-color: #dcfce7;
+  --footer-border-color: #166534;
+  --footer-title-text-color: #ffffff;
+  --footer-link-text-color: #dcfce7;
+  --footer-link-color-hover: #ffffff;
 
   /* Sidebar */
   --sidebar-background-color: #ffffff;
@@ -59,11 +60,12 @@
   --navbar-border-color: #1e293b;
 
   /* Footer */
-  --footer-bg-color: #020617;
-  --footer-text-color: #94a3b8;
-  --footer-border-color: #1e293b;
-  --footer-title-text-color: #f8fafc;
-  --footer-link-text-color: #94a3b8;
+  --footer-bg-color: #14532d;
+  --footer-text-color: #bbf7d0;
+  --footer-border-color: #166534;
+  --footer-title-text-color: #ffffff;
+  --footer-link-text-color: #bbf7d0;
+  --footer-link-color-hover: #ffffff;
 
   /* Sidebar */
   --sidebar-background-color: #0f172a;
@@ -79,4 +81,9 @@
   /* Search */
   --search-input-bg-color: #1e293b;
   --search-trigger-color: #94a3b8;
+}
+
+/* Navbar: menu goes first so the logo sits right before the search input */
+[data-component-name="Navbar/NavbarMenu"] {
+  order: -1;
 }
