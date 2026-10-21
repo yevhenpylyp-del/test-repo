@@ -16,6 +16,8 @@
   expanded: true
   icon: map
   items:
+    - page: docs/guides/index.md
+      label: Overview
     - page: docs/guides/catalog-management.md
       label: Catalog Management
     - page: docs/guides/orders-and-checkout.md
