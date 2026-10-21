@@ -1,0 +1,8 @@
+{
+  "name": "redocly-project",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@redocly/realm": "latest"
+  }
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --heading-font-family: 'Inter', system-ui, sans-serif;
+  --font-family-base: 'Inter', system-ui, sans-serif;
+
+  /* Brand Colors - Blue Scale */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  
+  /* Global Layout */
+  --bg-color: #ffffff;
+  --content-background-color: #ffffff;
+  --border-color: #e2e8f0;
+  --border-color-secondary: #f1f5f9;
+
+  /* Navbar */
+  --navbar-bg-color: #ffffff;
+  --navbar-text-color: #0f172a;
+  --navbar-border-color: #e2e8f0;
+
+  /* Footer */
+  --footer-bg-color: #f8fafc;
+  --footer-text-color: #475569;
+  --footer-border-color: #e2e8f0;
+  --footer-title-text-color: #0f172a;
+  --footer-link-text-color: #475569;
+
+  /* Sidebar */
+  --sidebar-background-color: #ffffff;
+  --sidebar-border-color: #e2e8f0;
+  --menu-item-bg-color-active: #eff6ff;
+
+  /* Typography */
+  --h1-text-color: #0f172a;
+  --text-color: #334155;
+  --text-color-secondary: #64748b;
+  --link-text-color: #2563eb;
+
+  /* Search */
+  --search-input-bg-color: #f1f5f9;
+  --search-trigger-color: #64748b;
+}
+
+:root.dark {
+  /* Brand Colors */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #60a5fa;
+
+  /* Global Layout */
+  --bg-color: #0f172a;
+  --content-background-color: #0f172a;
+  --border-color: #1e293b;
+  --border-color-secondary: #334155;
+
+  /* Navbar */
+  --navbar-bg-color: #0f172a;
+  --navbar-text-color: #f8fafc;
+  --navbar-border-color: #1e293b;
+
+  /* Footer */
+  --footer-bg-color: #020617;
+  --footer-text-color: #94a3b8;
+  --footer-border-color: #1e293b;
+  --footer-title-text-color: #f8fafc;
+  --footer-link-text-color: #94a3b8;
+
+  /* Sidebar */
+  --sidebar-background-color: #0f172a;
+  --sidebar-border-color: #1e293b;
+  --menu-item-bg-color-active: #1e293b;
+
+  /* Typography */
+  --h1-text-color: #f8fafc;
+  --text-color: #cbd5e1;
+  --text-color-secondary: #94a3b8;
+  --link-text-color: #60a5fa;
+
+  /* Search */
+  --search-input-bg-color: #1e293b;
+  --search-trigger-color: #94a3b8;
+}

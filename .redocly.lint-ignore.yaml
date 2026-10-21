@@ -1,0 +1,42 @@
+# This file instructs Redocly's linter to ignore the rules contained for specific parts of your API.
+# See https://redocly.com/docs/cli/ for more information.
+apis/openapi.yaml:
+  no-server-example.com:
+    - '#/servers/0/url'
+  operation-operationId:
+    - '#/paths/~1products/get/operationId'
+    - '#/paths/~1products~1{id}/get/operationId'
+    - '#/paths/~1cart/post/operationId'
+    - '#/paths/~1orders/get/operationId'
+    - '#/paths/~1orders/post/operationId'
+    - '#/paths/~1inventory~1{sku}/get/operationId'
+  operation-tag-defined:
+    - '#/paths/~1products/get'
+    - '#/paths/~1products~1{id}/get'
+    - '#/paths/~1cart/post'
+    - '#/paths/~1orders/get'
+    - '#/paths/~1orders/post'
+    - '#/paths/~1inventory~1{sku}/get'
+  scalar-property-missing-example:
+    - '#/components/schemas/Product/properties/id'
+    - '#/components/schemas/Product/properties/name'
+    - '#/components/schemas/Product/properties/brand'
+    - '#/components/schemas/Product/properties/price'
+    - '#/components/schemas/Product/properties/category'
+    - '#/paths/~1cart/post/requestBody/content/application~1json/schema/properties/productId'
+    - '#/paths/~1cart/post/requestBody/content/application~1json/schema/properties/quantity'
+    - '#/components/schemas/OrderRequest/properties/items/items/properties/productId'
+    - '#/components/schemas/OrderRequest/properties/items/items/properties/quantity'
+    - '#/components/schemas/OrderRequest/properties/shippingAddress/properties/street'
+    - '#/components/schemas/OrderRequest/properties/shippingAddress/properties/city'
+    - '#/components/schemas/OrderRequest/properties/shippingAddress/properties/postalCode'
+    - '#/components/schemas/OrderRequest/properties/shippingAddress/properties/country'
+    - '#/paths/~1inventory~1{sku}/get/responses/200/content/application~1json/schema/properties/sku'
+    - '#/paths/~1inventory~1{sku}/get/responses/200/content/application~1json/schema/properties/available'
+  security-defined:
+    - '#/paths/~1products/get'
+    - '#/paths/~1products~1{id}/get'
+    - '#/paths/~1cart/post'
+    - '#/paths/~1orders/get'
+    - '#/paths/~1orders/post'
+    - '#/paths/~1inventory~1{sku}/get'

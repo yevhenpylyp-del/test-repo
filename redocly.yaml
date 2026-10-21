@@ -22,3 +22,36 @@ rules:
 
 ignore:
   - .github
+
+# SEO configuration for the portal
+seo:
+  title: "SportShop API Docs"
+
+# API definition
+apis:
+  sportshop-api@v1:
+    root: apis/openapi.yaml
+
+# Navigation footer
+footer:
+  copyrightText: "© 2026 SportShop Retail"
+  items:
+    - group: Product
+      items:
+        - page: docs/getting-started/index.md
+          label: Getting Started
+        - page: apis/openapi.yaml
+          label: API Reference
+    - group: Support
+      items:
+        - page: docs/index.md
+          label: Documentation
+
+navbar:
+  items:
+    - page: index.md
+      label: Home
+    - page: docs/index.md
+      label: Documentation
+    - page: apis/openapi.yaml
+      label: API Reference

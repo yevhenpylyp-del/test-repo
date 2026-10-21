@@ -1,0 +1,22 @@
+- page: index.md
+  label: Home
+  icon: house
+- page: docs/index.md
+  label: Documentation
+  icon: book
+- group: Getting Started
+  expanded: true
+  icon: rocket
+  items:
+    - page: docs/getting-started/index.md
+      label: Introduction
+    - page: docs/getting-started/authentication.md
+      label: Authentication
+- group: Guides
+  expanded: true
+  icon: map
+  items:
+    - page: docs/guides/catalog-management.md
+      label: Catalog Management
+    - page: docs/guides/orders-and-checkout.md
+      label: Orders and Checkout
